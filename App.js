@@ -1,4 +1,3 @@
-// eslint-disable-next-line react-redux/connect-prefer-named-arguments
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";

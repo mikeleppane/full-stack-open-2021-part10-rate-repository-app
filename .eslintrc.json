@@ -7,7 +7,10 @@
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
+    "import/ignore": [
+      "react-native"
+    ]
   },
   "extends": [
     "eslint:recommended",
@@ -28,7 +31,6 @@
     "semi": "error",
     "jsx-a11y/label-has-for": 0,
     "react/react-in-jsx-scope": "off",
-    "react-redux/connect-prefer-named-arguments": 2,
     "indent": [
       "error",
       2,
